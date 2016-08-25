@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.timestudio.think.myapplication.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="50dp"
+            android:text="使用帐号和密码登陆"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:src="@mipmap/game"
+                android:id="@+id/imageView" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_vertical"
+                android:hint="微信号/手机号/QQ号"
+                android:background="@null"
+                android:textSize="25dp"
+                android:id="@+id/login_account" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/linearlayout_border"
+            android:text="New Text"
+            android:id="@+id/textView2" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:src="@mipmap/game"
+                android:id="@+id/imageView1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_vertical"
+                android:hint="请填写密码"
+                android:textSize="25dp"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:id="@+id/login_password" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/linearlayout_border"
+            android:text="New Text"
+            android:id="@+id/textView3" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@color/springgreen"
+        android:text="登陆"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆遇到问题？"
+        android:textSize="12dp"
+        android:textColor="@color/slategrey"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
