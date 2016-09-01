@@ -18,7 +18,8 @@
         <activity android:name=".XMLActivity" />
         <activity android:name=".ViewActivity" />
         <activity android:name=".BounceActivity" />
-        <activity android:name=".FishActivity"></activity>
+        <activity android:name=".FishActivity" />
+        <activity android:name=".Trancition"></activity>
     </application>
 
 </manifest>

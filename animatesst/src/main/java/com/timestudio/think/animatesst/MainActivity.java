@@ -25,6 +25,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     Button bt_view;
     Button bt_bounce;
     Button bt_fish;
+    Button bt_trancition;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +57,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         bt_bounce.setOnClickListener(this);
         bt_fish = (Button)findViewById(R.id.bt_fish);
         bt_fish.setOnClickListener(this);
+        bt_trancition = (Button)findViewById(R.id.bt_trancition);
+        bt_trancition.setOnClickListener(this);
 
     }
 
@@ -77,6 +80,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.bt_fish:
                 intent.setClass(MainActivity.this,FishActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_trancition:
+                intent.setClass(MainActivity.this,Trancition.class);
                 startActivity(intent);
                 break;
         }

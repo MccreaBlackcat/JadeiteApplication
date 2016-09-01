@@ -29,4 +29,9 @@
         android:layout_height="wrap_content"
         android:text="FISH"
         android:id="@+id/bt_fish" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trancition"
+        android:id="@+id/bt_trancition" />
 </LinearLayout>
